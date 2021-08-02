@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.892543">
+<testcase classname="Validate the adactin website" name="Validate all pages of adactin" time="19.892543">
+<system-out><![CDATA[Given Launch the website....................................................passed
+When Login with "anishdmathew" and "Mashiah@1"..............................passed
+And Validate search hotel page "Sydney" , "Hotel Creek", "Standard", "1", "30-06-2021", "02-07-2021".passed
+And Hotel confirmation page.................................................passed
+And Book the hotel "Konda", "Dinesh", "India", "1234567890123450", "AMEX", "2", "2022", "1234".passed
+Then print the booking order................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

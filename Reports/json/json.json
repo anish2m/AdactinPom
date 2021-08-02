@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validate all pages of adactin",
+        "description": "",
+        "id": "validate-the-adactin-website;validate-all-pages-of-adactin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4505745400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch the website",
+            "match": {
+              "location": "StepDefinition1.launch_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3145993500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login with \"anishdmathew\" and \"Mashiah@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anishdmathew\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Mashiah@1\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition1.login_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2020262600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate search hotel page \"Sydney\" , \"Hotel Creek\", \"Standard\", \"1\", \"30-06-2021\", \"02-07-2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"30-06-2021\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"02-07-2021\"",
+                  "offset": 84
+                }
+              ],
+              "location": "StepDefinition1.validate_search_hotel_page(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078810600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hotel confirmation page",
+            "match": {
+              "location": "StepDefinition1.hotel_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323394500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Book the hotel \"Konda\", \"Dinesh\", \"India\", \"1234567890123450\", \"AMEX\", \"2\", \"2022\", \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Konda\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Dinesh\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1234567890123450\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"AMEX\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 84
+                }
+              ],
+              "location": "StepDefinition1.book_the_hotel(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5907748000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the booking order",
+            "match": {
+              "location": "StepDefinition1.print_the_booking_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the adactin website",
+    "description": "",
+    "id": "validate-the-adactin-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Adactin/fulltesting.feature",
+    "tags": []
+  }
+]
